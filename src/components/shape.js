@@ -6,6 +6,8 @@ export default class Shape {
   color = null;
 
   constructor(color) {
+    super();
+
     this.color = color;
   }
 

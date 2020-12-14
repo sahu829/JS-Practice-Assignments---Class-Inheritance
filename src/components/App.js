@@ -6,7 +6,6 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      hiiii
       <Circle />
       <Shape />
     </div>
