@@ -1,6 +1,8 @@
 // import using require
 
-const { default: Shape } = require("./shape");
+import Shape from "./shape";
+
+//const { default: Shape } = require("./shape");
 
 //const { default: Shape } = require("./shape");
 
