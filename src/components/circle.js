@@ -10,10 +10,9 @@ import Shape from "./shape";
 
 // export class using module.exports
 
-class Circle extends Shape {
+module.exports = class Circle extends Shape {
   constructor(color) {
     super(color);
   }
   calculateArea = function () {};
-}
-export default Circle;
+};
