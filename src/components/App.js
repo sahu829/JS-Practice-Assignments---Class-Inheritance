@@ -1,7 +1,7 @@
 import React from "react";
 import Circle from "./circle";
 import Shape from "./shape";
-import "./styles.css";
+//import "./styles.css";
 
 export default function App() {
   return (
