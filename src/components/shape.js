@@ -7,6 +7,10 @@ module.exports = class Shape {
     this.color = "red";
   }
 
-  drawShape = function () {};
-  calculateArea = function () {};
+  drawShape = function () {
+    console.log("drawshape");
+  };
+  calculateArea = function () {
+    console.log("calculateArea");
+  };
 };

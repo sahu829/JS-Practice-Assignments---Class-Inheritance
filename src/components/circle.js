@@ -14,5 +14,7 @@ module.exports = class Circle extends Shape {
   constructor(color) {
     super(color);
   }
-  calculateArea = function () {};
+  calculateArea = function () {
+    console.log("extends class");
+  };
 };
